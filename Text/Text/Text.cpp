@@ -18,31 +18,31 @@ int main()
 	while (Num != 0)
 	{
 		Num = -1;
-		cout << "Меню:\n\n";
+		cout << "Меню:\n";
 
-		cout << "1. Считать из файла" << endl;
-		cout << "2. Вывод" << endl;
-		cout << "3. Сохранить файл" << endl;
+		cout << "1. Считать из файла\n";
+		cout << "2. Вывод\n";
+		cout << "3. Сохранить файл\n";
 
-		cout << "\nПеремещение указателя:" << endl;
-		cout << "4. Переместить ToNext" << endl;
-		cout << "5. Переместить ToDown" << endl;
-		cout << "6. Переместить ToPrev" << endl;
-		cout << "7. Переместить ToFirst" << endl;
+		cout << "Перемещение указателя:\n";
+		cout << "4. ToNext\n";
+		cout << "5. ToDown\n";
+		cout << "6. ToPrev\n";
+		cout << "7. ToFirst\n";
 
-		cout << "\nОперации:" << endl;
-		cout << "8. Вставка InsNextLine" << endl;
-		cout << "9. Вставка InsNextSection" << endl;
-		cout << "10. Вставка InsDownLine" << endl;
-		cout << "11. Вставка InsDownSection" << endl;
-		cout << "12. Удаление DelNext" << endl;
-		cout << "13. Удаление DelDown" << endl;
+		cout << "Операции:\n";
+		cout << "8. InsNextLine\n";
+		cout << "9. InsNextSection\n";
+		cout << "10. InsDownLine\n";
+		cout << "11. InsDownSection\n";
+		cout << "12. DelNext\n";
+		cout << "13. DelDown\n";
 
-		cout << "\nРабота с памятью:" << endl;
-		cout << "14. Сборка мусора" << endl;
-		cout << "15. Вывод пустых звеньев" << endl;
+		cout << "Работа с памятью:\n";
+		cout << "14. Сборка мусора\n";
+		cout << "15. Вывод пустых звеньев\n\n";
 
-		cout << "\n0. Выход\n" << endl;
+		cout << "0. Выход\n" << endl;
 
 		cin >> Num;
 
